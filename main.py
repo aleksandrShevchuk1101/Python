@@ -1,5 +1,5 @@
 def get_letter_grade(score):
-    letter_grade = 'A' if score >=90 else 'B' if score >= 80 'C' else 'D' if score >=70 else 'E'
+    letter_grade = 'A' if score >=90 else 'B' if score >= 80 else 'C' if score >= 70 else 'D' 
     return letter_grade
 
 
