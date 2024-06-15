@@ -97,6 +97,33 @@ squared_nums = [pow(num,2) for num in nums]
 
 
 
+""" fruits = ['banana', 'mandarin', 'orange', 'apple']
+
+
+fruit_lenght = {item: len(item) for item in fruits}
+
+print(fruit_lenght) """
+
+
+""" names = ['Bogdan', 'Alice', 'Bob']
+
+new_names = tuple(len(item) for item in names)
+
+
+print(new_names) """
+
+
+""" coordinates = (120, 240, 500)
+
+coordinates_list = [pow(item, 2) for item in coordinates]
+
+
+print(coordinates_list) """
+
+
+
+
+
 
 
 
