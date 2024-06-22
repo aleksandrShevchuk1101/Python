@@ -21,5 +21,3 @@
 
 # print_number_info(50)
 
-
-import math
