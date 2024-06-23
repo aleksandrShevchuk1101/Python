@@ -19,12 +19,12 @@
 # print(a)
 
 
-c = True
+# c = True
 
-def mult(a,b):
-    print(c)
-    return a * b
+# def mult(a,b):
+#     print(c)
+#     return a * b
 
 
 
-print(mult(10,2))
+# print(mult(10,2))
