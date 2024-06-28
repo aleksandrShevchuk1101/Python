@@ -63,24 +63,50 @@
 #     print(e)
 
 
-def image_info(foo: dict):
+# def image_info(foo: dict):
 
-    if not 'id' in foo or not 'image_title' in foo:
-        raise TypeError("We don't have all keys") 
+#     if not 'id' in foo or not 'image_title' in foo:
+#         raise TypeError("We don't have all keys") 
 
-    return f"Image {foo['image_title']} has id {foo['id']}"
-
-
-try:
-    foo = image_info({'id' : 121324, 'image_title' : 'asdfasdl;fjas'})
-except TypeError as t:
-    print("We have an error")
-else:
-    print("Success")
+#     return f"Image {foo['image_title']} has id {foo['id']}"
 
 
+# try:
+#     foo = image_info({'id' : 121324, 'image_title' : 'asdfasdl;fjas'})
+# except TypeError as t:
+#     print("We have an error")
+# else:
+#     print("Success")
 
-foo1 = {'one': 'we', 'two': 2}
 
-print('one' in foo1.keys())
 
+# foo1 = {'one': 'we', 'two': 2}
+
+# print('one' in foo1.keys())
+
+# person = {'name': 'John', 'age': 23}
+
+# other_person = person.copy()
+# other_person['age'] = 30
+
+# other_person = {
+#     **person,
+#     'age':30
+# }
+
+# print(person)
+# print(other_person)
+
+
+
+default_settings = {'theme': 'light', 'font_size' : 16}
+user_settings = {'font_size': 20, 'show_avatar': True}
+
+# merged_settings = {
+#     **default_settings,
+#     **user_settings}
+
+merged_settings = user_settings | default_settings
+
+
+print(merged_settings)
