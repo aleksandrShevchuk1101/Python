@@ -1,145 +1,107 @@
-""" all_nums = [-3,1,0,10,-20,5]
+# while True:
+#     print("We are in the loop")
 
-absolute_nums = [abs(item) for item in all_nums]
 
-print(absolute_nums)
+# user_name = ''
 
-print(all_nums) """
+# while not user_name:
+#     entered_usename = input("Please enter your username")
+    
+#     if len(entered_usename) > 3:
+#         user_name = entered_usename
+#     else:
+#         print("Useraname is too short. Must be more than 3 characters!")
 
+# print(f"Welcome {user_name}")
 
-""" all_nums = [-3, 1, 0 , 10 , -20, 5]
+# import time
 
-positive_nums = []
+# seconds_qty = 5
 
-for num in all_nums:
-    if num > 0:
-        positive_nums.append(num)
+# while seconds_qty > 0:
+#     print(f"Timer: {seconds_qty}")
+#     seconds_qty -= 1
+#     time.sleep(1)
 
+# print("Timer is up")
 
-print(positive_nums)
 
-print(all_nums) """
+# selected_option = 1
 
+# while selected_option not in range(1,4):
+#     print("Menu:")
+#     print("1. Start the game")
+#     print("2. Load saved game")
+#     print("3. Quit")
+#     try:
 
-""" all_nums = [-3, 1,0,10,-20,5]
+#         selected_option = int(input("Please enter the choise"))
+#     except ValueError as e:
+#         print(e)
+#         print("Try to select option once again")
 
-positive_nums=[ num for num in all_nums if num > 0 ]
+# if selected_option == 1:
+#     print("Staring the game...")
 
-print(positive_nums)
-print(all_nums)  """
+# if selected_option == 2:
+#     print("Loading saved game")
 
+# if selected_option == 3:
+#     print("Quiting")
 
-""" my_set = {1,10, 15}
+# user_password = 'admin123'
+# password = ''
 
-new_set = set()
+# while password != user_password:
+#     print("Enter 'quit in order to exit from login")
+#     password = input("Please enter your password: ")
 
+#     if password == 'quit':
+#         print("Quiting...")
+#         break
 
-for val in my_set:
-    new_set.add(val*val)
+#     if password == user_password:
+#         print("Login successful!")
+#     else:
+#         print("Login failed")
 
-print(my_set)
 
-print(new_set) """
+# my_list = [10, 5, 2, 100, 35]
 
+# for num in my_list:
+#     if num == 2:
+#         break
+#     print(num)
 
-""" my_set = {1,10,15}
 
-new_set = {item* item for item in my_set}
+# current_usernames = ['alex777', 'asdfadsf', 'qwer']
 
-print(new_set)
-print(my_set) """
 
 
+# while True:
+#     username = input("Please enter disired username: ")
 
-""" my_scores = {
-    'a': 10,
-    'b':7,
-    'm':14
-}
+#     if username in current_usernames:
+#         print("User name is already taken. Try again")
+#         continue
+    
+#     current_usernames.append(username)
+#     break
 
+# print("User registratioin complete.")
+# print(current_usernames)
 
-scores = {}
 
-for k, v in my_scores.items():
-    scores[k] = v
+# while True:
+#     num_1 = input("Enter first number")
+#     num_2 = input("Enter second number")
 
+#     print(f"The result is {num_1 / num_2}")
+#     res = input("Do you wanna to continue? Yes or no")
 
-print(scores)
-
-print(my_scores) """
-
-
-
-
-""" my_scores = {
-    'a': 10,
-    'b': 7,
-    'm': 14
-}
-
-scores = {k: v * 10 for k,v in my_scores.items()}
-
-
-print(my_scores)
-
-print(scores) """
-
-""" nums = [10, 2, 5, 100]
-
-
-squared_nums = [pow(num,2) for num in nums]
-
-"" for item in nums:
-    squared_nums.append(pow(item,2)) """
-
-#print(squared_nums) 
-
-
-
-
-""" fruits = ['banana', 'mandarin', 'orange', 'apple']
-
-
-fruit_lenght = {item: len(item) for item in fruits}
-
-print(fruit_lenght) """
-
-
-""" names = ['Bogdan', 'Alice', 'Bob']
-
-new_names = tuple(len(item) for item in names)
-
-
-print(new_names) """
-
-
-""" coordinates = (120, 240, 500)
-
-coordinates_list = [pow(item, 2) for item in coordinates]
-
-
-print(coordinates_list) """
-
-
-
-
-
-
-
-
-
-
-
- 
-
-  
-
-
-
-
- 
-
- 
-
+#     if res == 'no':
+#         break
+#     elif res == 'yes':
+#         continue
 
 
