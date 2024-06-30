@@ -1,107 +1,114 @@
-# while True:
-#     print("We are in the loop")
+# all_nums = [-3, 1, 0, 10, -20, 5]
+
+# absolute_nums = [abs(item) for item in all_nums]
+
+# print(absolute_nums)
 
 
-# user_name = ''
+# nums = [10, 2, 5, 100]
 
-# while not user_name:
-#     entered_usename = input("Please enter your username")
-    
-#     if len(entered_usename) > 3:
-#         user_name = entered_usename
-#     else:
-#         print("Useraname is too short. Must be more than 3 characters!")
+# squard_nums = []
 
-# print(f"Welcome {user_name}")
-
-# import time
-
-# seconds_qty = 5
-
-# while seconds_qty > 0:
-#     print(f"Timer: {seconds_qty}")
-#     seconds_qty -= 1
-#     time.sleep(1)
-
-# print("Timer is up")
+# for num in nums:
+#     squard_nums.append(pow(num,2))
 
 
-# selected_option = 1
+# print(squard_nums)
 
-# while selected_option not in range(1,4):
-#     print("Menu:")
-#     print("1. Start the game")
-#     print("2. Load saved game")
-#     print("3. Quit")
-#     try:
+# squard_nums = [pow(num,2) for num in nums]
 
-#         selected_option = int(input("Please enter the choise"))
-#     except ValueError as e:
-#         print(e)
-#         print("Try to select option once again")
-
-# if selected_option == 1:
-#     print("Staring the game...")
-
-# if selected_option == 2:
-#     print("Loading saved game")
-
-# if selected_option == 3:
-#     print("Quiting")
-
-# user_password = 'admin123'
-# password = ''
-
-# while password != user_password:
-#     print("Enter 'quit in order to exit from login")
-#     password = input("Please enter your password: ")
-
-#     if password == 'quit':
-#         print("Quiting...")
-#         break
-
-#     if password == user_password:
-#         print("Login successful!")
-#     else:
-#         print("Login failed")
+# print(squard_nums)
 
 
-# my_list = [10, 5, 2, 100, 35]
-
-# for num in my_list:
-#     if num == 2:
-#         break
-#     print(num)
+# fruits = ['banana', 'mandarin', 'orange', 'apple']
 
 
-# current_usernames = ['alex777', 'asdfadsf', 'qwer']
+# fruit_lenght = {item: len(item) for item in fruits}
+
+# print(fruit_lenght)
+
+
+# names = ['asdf', 'alex', 'asdfasdf']
+
+# names_lengths = tuple(len(item) for item in names)
+
+# print(names_lengths)
+
+
+# cordinates = (120, 240, 500)
+
+# coor_list = [item * 2 for item in cordinates]
+
+# print(coor_list)
 
 
 
-# while True:
-#     username = input("Please enter disired username: ")
+# grades = (80, 95, 65)
+# sub = ['Science', 'Math', 'Physics']
 
-#     if username in current_usernames:
-#         print("User name is already taken. Try again")
-#         continue
-    
-#     current_usernames.append(username)
-#     break
+# # print(dict(zip(sub, grades)))
 
-# print("User registratioin complete.")
-# print(current_usernames)
+# grate_dict = { s: g -10 for s,g in zip(sub, grades)}
+
+# print(grate_dict)
 
 
-# while True:
-#     num_1 = input("Enter first number")
-#     num_2 = input("Enter second number")
+# foo = [(1,2), (2,3)]
 
-#     print(f"The result is {num_1 / num_2}")
-#     res = input("Do you wanna to continue? Yes or no")
 
-#     if res == 'no':
-#         break
-#     elif res == 'yes':
-#         continue
+# for k,v in foo:
+#     print(k, v)
+
+
+# person = {
+#     'name': "asfa",
+#     "num": 67,
+#     "instructor": True
+# }
+
+
+# person_str =  [item for item in person.values() if type(item)==str]
+
+# print(person_str)
+
+# stocks = {
+#     'Google': 1500, 
+#     'AMZN': 3000,
+#     'APPLE': 300
+# }
+
+# douled_stocke = { k: v * 2 for k,v in stocks.items() if v >= 500 }
+
+# print(douled_stocke)
+
+
+
+# foo = {
+#     "name": "Alex",
+#     "position": "homless",
+#     "car": "nop"
+# }
+
+
+# foo1 = { k.upper(): v for k,v in foo.items() }
+
+# print(foo1)
+
+
+# foo1 = ['asdfasdf','adf', 'lolsssss', 'aaadasddick']
+# foo2 = [item for item in foo1 if len(item) > 5]
+
+# foo2.reverse()
+
+
+# print(foo2)
+
+
+
+nested_list = [[1,2,3], [4,5,6], [7,8,9]]
+flaten = [item for item in nested_list for item in item ]
+
+
+print(flaten)
 
 
