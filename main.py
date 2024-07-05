@@ -44,11 +44,24 @@
 
 # print(dir())
 
-from src.other import sum
-import utiles as my_utiles
+# from src.other import sum
+# import utiles as my_utiles
 
-print(sum(3,1))
+# print(sum(3,1))
+
+
+# def main():
+#     print("Running main block of code")
+
+def init():
+    # Code to init
+    print("Initializing...")
 
 
 def main():
-    print("Running main block of code")
+    print("Running main functionality")
+
+
+if __name__ == '__main__':
+    init()
+    main()

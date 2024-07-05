@@ -1,4 +1,9 @@
-print("Module name: other")
+# print("Module name: other")
 
 
-print(__name__)
+# print(__name__)
+
+
+import main
+
+
