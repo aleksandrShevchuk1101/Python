@@ -12,10 +12,43 @@
 
 
 
-c = True
+# c = True
 
-def mult(a,b):
-    return a * b
+# def mult(a,b):
+#     return a * b
 
 
 # print(mult(10,2))
+
+# import utiles as u
+
+
+# print(u)
+# print(type(u))
+# print(dir(u))
+
+# print(u.my_name)
+# print(u.hello(u.my_name))
+
+
+# from utiles import hello, my_name as name
+
+
+# print(hello('asdfasdf'))
+# print(name)
+
+# print(dir())
+
+
+# from utiles import *
+
+# print(dir())
+
+from src.other import sum
+import utiles as my_utiles
+
+print(sum(3,1))
+
+
+def main():
+    print("Running main block of code")
