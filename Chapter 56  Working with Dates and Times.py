@@ -50,7 +50,7 @@
 
 # print(future_datetime - timedelta(days=5))
 
-import time 
+# import time 
 
 
 # currnet_time_in_seconds = print(time.time())
@@ -59,14 +59,18 @@ import time
 
 # print(time.ctime(2353452345))
 
-start_time = time.time()
+# start_time = time.time()
 # print('Start')
 
 # time.sleep(3)
 
-my_range = list(range(100_000_000))
+# my_range = list(range(100_000_000))
 
-end_time = time.time()
+# end_time = time.time()
 
-print("Continue", round(end_time - start_time, 1), "sec")
+# print("Continue", round(end_time - start_time, 1), "sec")
    
+
+
+
+
