@@ -65,3 +65,25 @@ def main():
 if __name__ == '__main__':
     init()
     main()
+
+
+# import string
+
+# foo = "Hello world"
+
+# foo1 = ''.join([char * 2  for char in foo])
+
+# print(foo1)
+# print(type(foo1))
+
+
+
+
+from datetime import datetime
+
+print(datetime.today().date() == datetime.today().date())
+
+
+
+
+

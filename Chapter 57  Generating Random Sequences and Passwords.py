@@ -71,10 +71,10 @@
 # print(generate_password(100))
 
 
-# def generate_password(lenght):
-#     all_chars = string.ascii_letters + string.digits + string.punctuation
-#     password = ''.join([secrets.choice(all_chars) for i in range(lenght)])
-#     return password
+def generate_password(lenght):
+    all_chars = string.ascii_letters + string.digits + string.punctuation
+    password = ''.join([secrets.choice(all_chars) for i in range(lenght)])
+    return password
 
 
 # print(generate_password(10))
