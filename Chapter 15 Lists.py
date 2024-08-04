@@ -121,11 +121,44 @@
 # my_list.extend(my_list_2)
 # print(my_list)
 
-first_list = [1, 2, 3, 4, 5, 6]
-second_list = [7, 8, 9, 10, 11, 12]
-#combine_list = first_list.__add__(second_list)
+# first_list = [1, 2, 3, 4, 5, 6]
+# second_list = [7, 8, 9, 10, 11, 12]
+# #combine_list = first_list.__add__(second_list)
 
-combine_list = first_list[:]
-combine_list = combine_list.__add__(second_list)
+# combine_list = first_list[:]
+# combine_list = combine_list.__add__(second_list)
 
-print(combine_list)
+array = [2,3,5,7,11,'lol']
+
+# def foo(ls, element):
+
+#     try:
+#         index = ls.index(element)
+#     except Exception as e:
+#         index = "Not found"
+    
+#     return index
+
+
+# print(foo(array, 2.4))
+
+
+# def foo(ls, element):
+# #    foo = [k for k,v in enumerate(ls) if v==element]
+
+# #    return "Not found" if not foo else foo[0]
+#     return ls.index(element) if element in ls else 'Not found'
+
+# def foo(ls, element):
+#     return l
+
+
+
+        
+
+print(array.remove(2))
+
+
+
+
+
