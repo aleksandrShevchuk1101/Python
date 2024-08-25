@@ -34,6 +34,38 @@
 
 
 
-def foo(a): return "Error" if not isinstance(a,int) else a * 50 + 6
+# def foo(a): return "Error" if not isinstance(a,int) else a * 50 + 6
 
-print(foo(3))
+# print(foo(3))
+
+
+
+# class Solution:
+
+#     foo = 'lol'
+
+#     def main(self, *args):
+#         print("Hello world")
+#         _ = foo
+
+
+# foo = Solution()
+# foo.foo = "dick"
+# print(foo.foo)
+
+# foo1 = Solution()
+# print(foo1.foo)
+
+
+
+
+def foo(s):
+    if not isinstance(s, str):
+        raise TypeError
+    
+    return s.upper()
+    
+
+
+
+print(foo('dsf'))
