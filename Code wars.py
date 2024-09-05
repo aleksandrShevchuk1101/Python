@@ -1,6 +1,3 @@
-
-
-
 # def foo(x,y):
 #     x_pos = range(0, 101)
 #     x_neg = range(-100,1)
@@ -162,3 +159,95 @@
 #         s = s.replace(i,'')
 
 #     return s
+
+
+# def longest(a1,a2):
+
+#     # com_str = a1 + a2
+#     # new_list = []
+
+#     # for letter in com_str:
+#     #     if letter not in new_list:
+#     #         new_list.append(letter)
+            
+    
+
+#     # return new_list
+
+#     return "".join(sorted(set(a1+a2)))
+
+
+
+# foo = "aretheyhere"
+# foo1 = "yestheyarehere"
+
+
+# print(longest(foo, foo1))  
+
+# print(foo)
+# print(set(foo))
+
+# def whatday(num):
+    
+#     DAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+    
+#     return DAYS[num-1] if 0 < num <= len(DAYS) else "Wrong, please enter a number between 1 and 7"
+
+
+# print(whatday(0))
+
+# def whatday(num):
+
+#     foo = {1: "Sunday", 2: "Monday", 3: "Tuesday", 4: "Wednesday", 5: "Thursday", 6: "Friday", 7: "Saturday"}
+    
+#     return foo.get(num, "Wrong, please enter a number between 1 and 7")
+
+
+
+# print(whatday(0))
+
+
+
+# def last(*ar):
+
+#     print(ar)
+    
+#     return None
+    
+
+# foo1 = (5,6,2,32,3232)
+# foo2 = [1,2,3,4,5,6,7,8,9,10]
+# foo3 = ("abckxyz")
+# foo4 = ("a", "b", "c", "z")
+# foo5 = (123, [4, 5, 6])
+# foo6 = [1,2,3,4,5,6,7,8,9,10]
+
+
+
+
+
+
+# def last(*arr):
+    
+#     if len(arr)==1:
+#         arr= list(arr[0])
+#         return arr[-1]
+#     else:
+#         return arr[-1]   
+    
+
+# last([1,2,3,4,5,6,7,8,9,10])
+# last(5,6,2,32,3232)
+# last(list("abckxyz"))
+# last("abckxyz")
+# last("a", "b", "c", "z")
+# last(123, [4, 5, 6])
+# last(1,2,3,4,5,6,7,8,9,10)
+        
+
+
+
+
+
+
+
