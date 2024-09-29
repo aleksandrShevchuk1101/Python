@@ -243,7 +243,201 @@
 # last("a", "b", "c", "z")
 # last(123, [4, 5, 6])
 # last(1,2,3,4,5,6,7,8,9,10)
-        
+
+
+# (5, 8, 6, 4) =>  9
+# (1, 2, 4, 6) => 11
+# (1, 6)       =>  5
+# ( )          => -1
+# (6)          => -1 (because only one kid)
+
+
+# [5,8,6,4]
+
+# def foo(lol:list):
+
+#     # dick = 0
+#     # for i in lol:
+#     #     if i > dick:
+#     #         dick = i
+#     if not lol or len(lol) == 1:
+#         return -1 
+    
+#     can = 0
+
+#     for num in lol:
+#         can += max(lol) - num
+    
+
+#     return can
+
+ 
+# print(foo([21, 84, 77, 43, 1, 88, 5, 68, 45, 32, 42, 78, 73, 87, 48, 74, 15, 95, 22, 20, 44, 77, 53, 21, 67, 68, 68, 94, 39, 95, 1, 73, 98, 48, 98, 47, 65, 83, 45, 71, 28, 94, 64, 93, 73, 59, 37, 22, 12, 35, 11, 81, 50, 80, 32, 68, 45, 70, 12, 77, 10, 47, 13, 98, 40, 5, 1, 12, 55, 6, 33, 54, 2, 35, 40, 47, 15, 82, 25, 51, 35, 98, 74, 3, 39, 53]))
+# print(foo([1,2,4,6]))
+# print(foo([7,7,7,7]))
+
+                     #(34, 11, 6)
+
+# def foo(legs_number, heads_number, horns_number):
+    
+#     if not heads_number or legs_number % 2:
+#         return "Error"
+
+#     cows = int(horns_number / 2)
+    
+#     heads_number -= cows
+#     legs_number -= cows * 4
+
+
+#     rabbits = int((legs_number - 2 * heads_number) / 2)
+#     chicken = int(heads_number - rabbits)
+
+#     return {"rabbits" : rabbits, "chickens" : chicken, "cows" : cows}
+
+
+    #print(int(rabbits), int(chicken), int(cows))
+
+    # rabbits = 
+
+    # chickens = 
+
+    # cows = horns_number / 2
+# print(foo(34, 11, 6))
+# print(foo(154, 42, 10))
+
+# Input: 42145 Output: 54421
+
+# Input: 145263 Output: 654321
+
+# Input: 123456789 Output: 987654321
+
+# def foo(lol):
+
+#     dick = sorted(str(lol), reverse=True)
+
+#     print(dick)
+#     return None
+
+
+
+
+# print(foo(12354))
+# def foo(lol):
+#     r = 0 
+#     while lol > 0:
+#         r *= 10
+#         r += lol % 10
+#         lol //= 10
+
+#     return r
+
+# print(foo(123456789))
+
+# def lol(foo):
+
+#     return int(''.join(sorted(str(foo),reverse=True)))
+
+
+# print(lol(123412312))
+
+# def lol(foo):
+
+#     # arr = []
+#     # for item in range(len(foo)):
+#     #     arr.append(foo[0:item+1])
+       
+#     _ = str(foo)
+#     return [_[0:i+1] for i in range(len(str(_)))]
+
+
+
+
+# print(lol(420))
+    
+
+
+
+# def capitalize(s:str, l:list):
+
+# #     new_str = ''
+# #     for i in range(len(s)):
+# #         if i in l:
+# #             new_str+=s[i].capitalize()
+# #         else:
+# #             new_str+=s[i]
+#     # return new_str
+
+#     return ''.join(v.upper() if i in l else v for i, v in enumerate(s))
+
+
+
+
+# print(capitalize("abcdef", [1,2,5]))
+
+
+
+# def foo(m,n):
+#     dick = []
+#     for i in range(n):
+#         lol = []
+
+#         for j in range(m):
+#             lol.append(i+1)
+
+#         dick.append(lol)
+#     return dick
+
+# print(foo(5,8))
+
+
+
+
+# def vaporcode(s:str):
+
+#     # return '  '.join(i.upper() for i in s.replace(' ', ''))
+#     return '  '.join(s.replace(' ', '').upper())
+
+
+# print(vaporcode("Lets go to the movies"))
+
+# def get_count(s):
+#     # n = 0
+
+#     # for i in s:
+#     #     if i in 'aeiou':
+#     #         n += 1
+
+#     # return n
+
+
+#     return (1 for i in s if i in "aeiouAEIOU")
+
+# print(type(get_count('aeiou')))
+# print(get_count('bcdfghjklmnpqrstvwxz y'))
+
+
+
+# def foo(s):
+#     a = '_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+#     # sum = 0
+
+#     # for i in s:
+#     #     for k,v in enumerate(a):
+#     #         if i == v:
+#     #             sum += k+1 
+
+#     # return sum
+ 
+#     return sum(a.index(i) for i in s)
+
+
+
+
+# print(foo('abc'))
+# print(foo('attitude'))
+
+
+
 
 
 
