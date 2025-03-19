@@ -453,6 +453,16 @@
 #     return sum(a.index(i) for i in s)
 
 
+#     # for i in s:
+#     #     for k,v in enumerate(a):
+#     #         if i == v:
+#     #             sum += k+1 
+
+#     # return sum
+ 
+#     return sum(a.index(i) for i in s)
+
+
 
 
 
