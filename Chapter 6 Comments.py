@@ -1,8 +1,15 @@
 # Comment
 
-
-# Multi
-# line 
+# Multiline
 # comment
 
-print(777)  # Printing to the terminal
+print(10)  # Code with comment
+
+
+# Single line comment
+
+# Multi
+# line
+# comment
+
+print(777)
