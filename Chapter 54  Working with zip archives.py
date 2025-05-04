@@ -8,7 +8,7 @@ if not files_dir.exists():
 
 zip_archive = Path('my-files.zip')
 
-if zip_archive.exists():
+if zip_archive.exists(): 
     zip_archive.unlink()
 
 with open('my-file/first.txt','w') as file:

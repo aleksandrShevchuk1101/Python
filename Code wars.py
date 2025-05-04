@@ -24,7 +24,7 @@
     
 
 # print(foo(2,1,2))
-# print(foo(2,1,1))
+# print(foo(2,1,1)) 
 # print(foo(2,2,4))
 # print(foo(3,3,3))
 # print(foo(1,1,1))
@@ -35,7 +35,7 @@
 
 # print(foo(3))
 
-
+ 
 
 # class Solution:
 
@@ -135,14 +135,14 @@
 
 # print(lol)
 
-# def disemvowel(string_):
+def disemvowel(string_):
 
-#     list_of_vowels = ('a', 'e', 'i', 'o', 'u')
-#     # new_string = ""
+    list_of_vowels = ('a', 'e', 'i', 'o', 'u')
+    # new_string = ""
 
-#     # for i in string_:
-#     #     if i.lower() not in list_of_vowels:
-#     #         new_string += i
+    # for i in string_:
+    #     if i.lower() not in list_of_vowels:
+    #         new_string += i
 
 
 
