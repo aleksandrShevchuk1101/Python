@@ -32,4 +32,8 @@
 # print(res)
 
 
-   
+
+foo = "baz"
+
+
+print(foo)
