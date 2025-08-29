@@ -72,7 +72,7 @@ def send_email(to, subject, *args, **kwargs):
     print(list(kwargs))
 
 
-send_email('test@test.com', "Hello there!", 'other@test.com', 'leito1101@gmail.com', bcc = "leito1101@gmail.com", img = 'test.png')
+send_email("test@test.com", "Hello there!", "other@test.com", "leito1101@gmail.com", bcc = "leito1101@gmail.com", img = "test.png")
 
 
 
