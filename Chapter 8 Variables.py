@@ -1,28 +1,33 @@
 # snake_case
-# PascalCase
+# PascalCase classes
 # my-package
 # DB_PASSWORD
 
+# my_name = 10
+# print(type(my_name))
+# my_name = 10.0
+# print(type(my_name))
+# my_name = "Xyz"
+# print(type(my_name))
+# my_name = True
+# print(type(my_name))
 
-# my_number = 10
-# print(my_number)
 
-# my_number = "Aleksandr"
-# print(my_number)
+favorite_city = 'New York'
+print(favorite_city)
 
-# my_number = True
-# print(my_number)
-
-favorite_city = "New York"
-# print(favorite_city)
+favorite_city = 'London'
+print(favorite_city)
 
 def print_city(city):
     print(city)
 
+print_city("Ekibastus")
 
-print_city(favorite_city)
 
-print(type(print_city))
-print_city = 1
+MY_PASSWORD = 'abcd'
+MY_USERNAME = 'admin'
 
-print(type(print_city))
+print(type(MY_USERNAME))
+
+
