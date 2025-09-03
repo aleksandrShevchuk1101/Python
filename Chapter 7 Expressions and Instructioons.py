@@ -1,20 +1,32 @@
-
-# a = 10 / 2
-
-# print(a)
-
-
 # res = print()
 
 # print(res)
 
 
-# num = input("asdfdsf")
+# print(print())
 
 
-if 10 > 2:
-    print("asdfasdf")
+# num = '1'
 
-import datetime
+# print(num)
+# print(type(num))
 
-print(datetime.MAXYEAR)
+# def my_fn():
+#    print('test')
+
+# print(my_fn())  
+
+
+# import datetime as lol
+
+
+# print(lol.MAXYEAR)
+
+
+# def new_func(a):
+#     return a + "Lol"
+
+
+# print(new_func("sdf"))
+
+
