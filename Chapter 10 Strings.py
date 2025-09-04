@@ -1,26 +1,39 @@
+# my_name = 'Bogdan'
 
-# long_str = '''This is' a very
-#                 long string'''
+# print(my_name)
 
-# print(long_str)
-# print(type(long_str))
-# print(type(long_str)==str)
-# print(id(long_str))
+# info = """
+#     sdfasdfasd
+#     asdfasdf
+#     asdf
+#     asfasdfasdf
+#     a
+#     sf
+#     asdf
+# """
 
-# print(long_str.capitalize())
+# print(info)
+# print(len(info))
+
+# print(info[20])
+# print(info[20:25])
 
 
-baz = "This is my short comment"
-# print(baz)
+# my_name = "Alex"
 
-# print(len(baz))
+# print(my_name.upper()) 
+# print(my_name.capitalize())
+# print(my_name.count('A'))
 
-# xyz = baz.replace('short', 'long')
-# print(xyz)
+my_comment = "This is my short comment"
 
-print(baz.count('is'))
-print(baz[:-1])
-print(baz.upper())
+print(len(my_comment))
 
-print(dir(baz))
+foo = my_comment.replace('short', 'long')
+print(foo)
 
+xuz = my_comment.count('is')
+print(xuz)
+
+print(my_comment[3:-10])
+print(my_comment.split(' '))
